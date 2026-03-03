@@ -1,7 +1,5 @@
 { pkgs, lib, config, inputs, ... }:
 
 {
-  packages = [
-    pkgs.clang
-  ];
+  env.NIX_CFLAGS_COMPILE = "-std=c++23";
 }
