@@ -1,0 +1,134 @@
+{
+  "env": {
+    "python": "3.13.12",
+    "platform": "Linux-7.0.3-x86_64-with-glibc2.42",
+    "processor": "",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "N": 4000,
+    "n_warmup": 3,
+    "n_iters": 50
+  },
+  "rows": [
+    {
+      "p": 0.0,
+      "nnz": 0,
+      "dense_min_ms": 1.9044640011998126,
+      "dense_med_ms": 2.9168504997869604,
+      "sparse_min_ms": 0.0033829983294708654,
+      "sparse_med_ms": 0.0035875009416486137,
+      "dense_gflops": 16.80262792042275,
+      "sparse_gflops": 0.0,
+      "dense_bytes_per_s": 67244116937.53185,
+      "sparse_bytes_per_s": 23648844075.10583
+    },
+    {
+      "p": 0.001,
+      "nnz": 16051,
+      "dense_min_ms": 2.7547760000743438,
+      "dense_med_ms": 3.0049870001676027,
+      "sparse_min_ms": 0.012436001270543784,
+      "sparse_med_ms": 0.013649999345943797,
+      "dense_gflops": 11.616189482969363,
+      "sparse_gflops": 2.581376384709576,
+      "dense_bytes_per_s": 46487990310.84339,
+      "sparse_bytes_per_s": 21921515933.39934
+    },
+    {
+      "p": 0.002,
+      "nnz": 32221,
+      "dense_min_ms": 1.6618980007478967,
+      "dense_med_ms": 3.0049870001676027,
+      "sparse_min_ms": 0.02238100023532752,
+      "sparse_med_ms": 0.02406800012977328,
+      "dense_gflops": 19.255092662485414,
+      "sparse_gflops": 2.879317247773442,
+      "dense_bytes_per_s": 77058880835.26662,
+      "sparse_bytes_per_s": 20850542651.950024
+    },
+    {
+      "p": 0.005,
+      "nnz": 79944,
+      "dense_min_ms": 1.83493999975326,
+      "dense_med_ms": 2.6130634996661684,
+      "sparse_min_ms": 0.047141000322881155,
+      "sparse_med_ms": 0.048449499445268884,
+      "dense_gflops": 17.439262321548913,
+      "sparse_gflops": 3.3916972254488633,
+      "dense_bytes_per_s": 69791927810.83875,
+      "sparse_bytes_per_s": 22047304742.82134
+    },
+    {
+      "p": 0.01,
+      "nnz": 160225,
+      "dense_min_ms": 1.736607000566437,
+      "dense_med_ms": 2.989810499457235,
+      "sparse_min_ms": 0.06741000106558204,
+      "sparse_med_ms": 0.06897549974382855,
+      "dense_gflops": 18.42673672832277,
+      "sparse_gflops": 4.75374565990942,
+      "dense_bytes_per_s": 73743800386.74771,
+      "sparse_bytes_per_s": 29709300820.980606
+    },
+    {
+      "p": 0.02,
+      "nnz": 320942,
+      "dense_min_ms": 1.7742449999786913,
+      "dense_med_ms": 2.584062999630987,
+      "sparse_min_ms": 0.13226600094640162,
+      "sparse_med_ms": 0.13595799919130513,
+      "dense_gflops": 18.035840597202935,
+      "sparse_gflops": 4.85297805488284,
+      "dense_bytes_per_s": 72179434070.00615,
+      "sparse_bytes_per_s": 29722740325.33191
+    },
+    {
+      "p": 0.05,
+      "nnz": 802034,
+      "dense_min_ms": 1.8273990008310648,
+      "dense_med_ms": 2.627632499752508,
+      "sparse_min_ms": 0.3780980005103629,
+      "sparse_med_ms": 0.5008509988329024,
+      "dense_gflops": 17.511227698738498,
+      "sparse_gflops": 4.242466233185055,
+      "dense_bytes_per_s": 70079933250.35147,
+      "sparse_bytes_per_s": 25666393334.270016
+    },
+    {
+      "p": 0.1,
+      "nnz": 1601646,
+      "dense_min_ms": 2.2106939995865105,
+      "dense_med_ms": 2.745097499428084,
+      "sparse_min_ms": 1.457452000977355,
+      "sparse_med_ms": 2.165930499359092,
+      "dense_gflops": 14.47509243974304,
+      "sparse_gflops": 2.197871352093859,
+      "dense_bytes_per_s": 57929319943.85165,
+      "sparse_bytes_per_s": 13242121172.469313
+    },
+    {
+      "p": 0.15,
+      "nnz": 2402221,
+      "dense_min_ms": 2.7907630010304274,
+      "dense_med_ms": 2.997907000462874,
+      "sparse_min_ms": 2.50269699972705,
+      "sparse_med_ms": 3.4365870005785837,
+      "dense_gflops": 11.466398253160412,
+      "sparse_gflops": 1.9197058215692846,
+      "dense_bytes_per_s": 45888525809.147964,
+      "sparse_bytes_per_s": 11550202043.296743
+    },
+    {
+      "p": 0.2,
+      "nnz": 3202938,
+      "dense_min_ms": 1.6951289999269648,
+      "dense_med_ms": 2.5556629998391145,
+      "sparse_min_ms": 2.446417998726247,
+      "sparse_med_ms": 4.975113999535097,
+      "dense_gflops": 18.87761934423795,
+      "sparse_gflops": 2.6184715789923416,
+      "dense_bytes_per_s": 75548232615.64027,
+      "sparse_bytes_per_s": 15743531980.2476
+    }
+  ]
+}
