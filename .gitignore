@@ -8,6 +8,12 @@ devenv.local.yaml
 
 # pre-commit
 .pre-commit-config.yaml
+
+.vscode
+
+# Rust
+target
+
 A
 B
 C
